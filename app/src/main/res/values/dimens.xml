@@ -1,0 +1,35 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="topbar_vertical_size">32dp</dimen>
+    <dimen name="questionbar_vertical_size">64dp</dimen>
+
+    <dimen name="radiogroup_top_margin">16dp</dimen>
+    <dimen name="radiobutton_top_margin">5dp</dimen>
+    <dimen name="radiobutton_bottom_margin">5dp</dimen>
+
+    <dimen name="bottombar_vertical_size">64dp</dimen>
+
+    <dimen name="rating_icon">32dp</dimen>
+    <dimen name="poster_max_height">256dp</dimen>
+
+    <dimen name="movie_mania_logo_width">256dp</dimen>
+    <dimen name="movie_mania_logo_height">128dp</dimen>
+    <dimen name="movie_mania_logo_margin">64dp</dimen>
+
+    <dimen name="home_button_height">48dp</dimen>
+    <dimen name="home_button_width">128dp</dimen>
+
+    <dimen name="left_margin">5dp</dimen>
+    <dimen name="stats_top_margin">32dp</dimen>
+    <dimen name="stats_score_margin">16dp</dimen>
+
+    <dimen name="widget_layout_default_width">250dp</dimen>
+    <dimen name="widget_layout_default_height">180dp</dimen>
+    <dimen name="widget_layout_min_resize_width">180dp</dimen>
+    <dimen name="widget_layout_min_resize_height">110dp</dimen>
+    <dimen name="widget_margin">8dp</dimen>
+
+</resources>

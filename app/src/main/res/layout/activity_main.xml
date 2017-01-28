@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="@dimen/movie_mania_logo_width"
+        android:layout_height="@dimen/movie_mania_logo_height"
+        android:layout_marginBottom="@dimen/movie_mania_logo_margin"
+        android:layout_marginTop="@dimen/movie_mania_logo_margin"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/movie_mania_logo"
+        android:scaleType="fitXY"
+        />
+    <Button
+        android:layout_width="@dimen/home_button_width"
+        android:layout_height="@dimen/home_button_height"
+        android:text="Play"
+        android:id="@+id/play"
+        android:onClick="takeQuiz"
+        android:layout_gravity="center_horizontal"
+        />
+    <Button
+        android:layout_width="@dimen/home_button_width"
+        android:layout_height="@dimen/home_button_height"
+        android:text="Settings"
+        android:id="@+id/settings"
+        android:onClick="clickSettings"
+        android:layout_gravity="center_horizontal"
+        />
+    <Button
+        android:layout_width="@dimen/home_button_width"
+        android:layout_height="@dimen/home_button_height"
+        android:text="High Scores"
+        android:id="@+id/highScore"
+        android:onClick="clickHighScore"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>

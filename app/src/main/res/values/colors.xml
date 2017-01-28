@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Using the "Indigo" Material Pallete-->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimaryLight">#FFFFFF</color>
+
+    <!--Font Color for question page fonts-->
+    <color name="colorTopFont">#000000</color>
+    <color name="colorQuestionFont">#000000</color>
+    <color name="colorRadioFont">#000000</color>
+    <color name="colorRadioButton">#000000</color>
+
+    <!--Font Color for result page fonts-->
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+
+    <!--Red/Green Color for correct/wrong answer-->
+    <color name="correct">#B9F6CA</color>
+    <color name="incorrect">#FF8A80</color>
+</resources>

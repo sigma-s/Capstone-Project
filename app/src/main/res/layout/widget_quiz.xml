@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/widget_margin">
+    <FrameLayout
+        android:id="@+id/widget"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:background="@color/colorPrimary">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:layout_gravity="center"
+            android:text="@string/app_name"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryLight"
+        android:id="@+id/quiz_widget">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/questionbar_vertical_size"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:id="@+id/wQuestion"
+        android:textColor = "@color/colorQuestionFont"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_gravity="start"
+        android:text= "@string/question"
+        android:maxLines="4"
+        android:padding="@dimen/widget_margin"
+        />
+<!--
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/radiogroup_top_margin"
+        android:id="@+id/wRadioGroup">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/wAns1"
+            android:paddingBottom="@dimen/radiobutton_bottom_margin"
+            android:paddingTop="@dimen/radiobutton_top_margin"
+            android:textColor="@color/colorRadioFont"
+            android:buttonTint="@color/colorRadioButton"
+            android:checked="false"
+            android:text= "@string/ans1"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/wAns2"
+            android:paddingBottom="@dimen/radiobutton_bottom_margin"
+            android:paddingTop="@dimen/radiobutton_top_margin"
+            android:textColor="@color/colorRadioFont"
+            android:buttonTint="@color/colorRadioButton"
+            android:checked="false"
+            android:text= "@string/ans2"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/wAns3"
+            android:paddingBottom="@dimen/radiobutton_bottom_margin"
+            android:paddingTop="@dimen/radiobutton_top_margin"
+            android:textColor="@color/colorRadioFont"
+            android:buttonTint="@color/colorRadioButton"
+            android:checked="false"
+            android:text= "@string/ans3"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/wAns4"
+            android:paddingBottom="@dimen/radiobutton_bottom_margin"
+            android:paddingTop="@dimen/radiobutton_top_margin"
+            android:textColor="@color/colorRadioFont"
+            android:buttonTint="@color/colorRadioButton"
+            android:checked="false"
+            android:text= "@string/ans4"/>
+      </RadioGroup>
+    <TextView
+        android:id="@+id/empty_widget"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textColor="@color/primary_text"
+        android:textStyle="bold"
+        android:text="@string/empty_text"
+        android:textSize="20sp"
+        android:layout_height="match_parent" />   -->
+    </FrameLayout>
+</LinearLayout>

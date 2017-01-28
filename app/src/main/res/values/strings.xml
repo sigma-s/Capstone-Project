@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Movie Mania</string>
+
+    <string name="movie_name">The Fast and the Furious(2001)</string>
+    <string name="movie_rating">6.5</string>
+    <string name="movie_language">English</string>
+    <string name="movie_overview">Domenic Toretto is a Los Angeles street racer suspected of masterminding
+        a series of big-rig hijackings. When undercover cop Brian O\'Conner infiltrates Toretto\'s iconoclastic crew,
+        he falls for Toretto\'s sister and must choose a side: the gang or the LAPD.</string>
+
+    <string name="score_text">Score:</string>
+    <string name="score">50</string>
+    <string name="timer_text">Timer:</string>
+    <string name="timer">02:59</string>
+    <string name="question">Who starred in the movie Andaz Apna Apna?</string>
+    <string name="ans1">Shahrukh Khan</string>
+    <string name="ans2">Salman Khan</string>
+    <string name="ans3">Govinda</string>
+    <string name="ans4">Sanjay Dutt</string>
+
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="device_id" translatable="false">1E7145215208BE449B00742AA5D68BE0</string>
+
+    <string name="empty_text">Quiz not available!</string>
+</resources>
